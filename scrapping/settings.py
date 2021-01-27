@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "vgd=ze3q+22crtvb!l&ybw4p9e=5(v8t(%-*rf6rgvc%(rr@b2"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["myweatherproject.herokuapp.com"]
 
