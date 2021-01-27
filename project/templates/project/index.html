@@ -8,6 +8,54 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <title>Weather App</title>
 </head>
+<style>
+    * {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    
+    }
+
+    .container{
+        margin-top: 10%;
+        margin: auto;
+        text-align: center;
+        padding: 100px;
+        text-transform: capitalize;
+    }
+
+    input[type = 'text']{
+        width: 30%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        border: 2px solid black;
+        height: 2.5em;
+        
+    }
+
+    input[type = 'submit']{
+        width: 30%;
+        color: white;
+        background-color: rgb(25, 110, 221);
+        font-size: 20px;
+        cursor: default;
+        text-align: center;
+        border: 2px solid rgb(21, 24, 24);
+        text-transform: uppercase;
+        
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer span{
+        text-transform: lowercase;
+    }
+</style>
 <body>
     <div class="container">
         <h2>Get the Weather</h2>
